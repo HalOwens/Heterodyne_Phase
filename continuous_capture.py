@@ -1,7 +1,6 @@
 import qm.qua as qua
 from qm import QuantumMachinesManager
-from config_lf_mw_fem import config, qop_ip, cluster_name
-import matplotlib.pyplot as plt
+from Phase_Measure.config_lf_mw_fem import config, qop_ip, cluster_name
 import numpy as np
 from qualang_tools.units import unit
 
