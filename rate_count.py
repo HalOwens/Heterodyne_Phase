@@ -17,7 +17,7 @@ Instead, we:
 import numpy as np
 import qm.qua as qua
 from qm import QuantumMachinesManager
-from Phase_Measure.config_lf_mw_fem import config, qop_ip, cluster_name
+from Phase_Measure.Drivers.phase_config import config, qop_ip, cluster_name
 
 # -----------------------------
 # User parameters
