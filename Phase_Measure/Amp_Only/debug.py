@@ -1,5 +1,5 @@
 
-# Single QUA script generated at 2026-02-16 17:42:29.906343
+# Single QUA script generated at 2026-02-19 16:29:37.699839
 # QUA library version: 1.2.4
 
 
@@ -21,7 +21,7 @@ with program() as prog:
         save(v2, r1)
         r2 = declare_stream()
         save(v3, r2)
-        wait(100, )
+        wait(10000, )
     with stream_processing():
         r1.save_all("I")
         r2.save_all("Q")
