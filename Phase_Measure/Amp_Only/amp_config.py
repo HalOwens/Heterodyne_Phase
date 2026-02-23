@@ -22,7 +22,7 @@ sampling_rate = int(1e9)  # or int(2e9)
 #########################
 # Readout configuration  #
 #########################
-READOUT_LEN = 1000  # clock cycles (at 1 GHz => 2 us). Adjust as needed.
+READOUT_LEN = 50000  # clock cycles (at 1 GHz => 2 us). Adjust as needed.
 
 #########################
 # RF amplitude note      #
@@ -83,7 +83,7 @@ config = {
         "lf_in1_iq": {
             "outputs": {"out1": (con, lf_fem, 1)},  # LF-FEM analog input 1
             "intermediate_frequency": 0,           # set in QUA via update_frequency()
-            "time_of_flight": 28,
+            "time_of_flight": 80,
             "operations": {"readout": "in1_readout"},
         },
     },
